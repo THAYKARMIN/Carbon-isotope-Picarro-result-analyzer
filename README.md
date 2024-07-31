@@ -5,14 +5,14 @@
 Carbon fixation in plants is the process of taking carbon dioxide (CO2) from the air and turning it into sugars that the plant can use for energy and growth. This happens during [photosynthesis](https://en.wikipedia.org/wiki/Photosynthesis) in the plant's leaves, and it also releases oxygen (O2) into the air. In most plants ([C3 plants](https://en.wikipedia.org/wiki/C3_carbon_fixation)), CO2 is directly used in a cycle of reactions to produce these sugars. In some plants ([C4](https://en.wikipedia.org/wiki/C4_carbon_fixation) and [CAM plants](https://en.wikipedia.org/wiki/Crassulacean_acid_metabolism)), there are extra steps that help them capture CO2 more efficiently, especially in hot and dry conditions. 
 
 <p align="center">
-  <img src="tree.png" alt="Important Data" width="500"/>
+  <img src="pictures/tree.png" alt="Important Data" width="500"/>
 </p>
 
-The CO2 in the atmosphere is composed of different carbon [isotopes](https://en.wikipedia.org/wiki/Isotope), and specifically the ratio of stable isotopes 13C and 12C, expressed as δ13C: <img src="d13c.png" alt="Important Data" width="200"/>
+The CO2 in the atmosphere is composed of different carbon [isotopes](https://en.wikipedia.org/wiki/Isotope), and specifically the ratio of stable isotopes 13C and 12C, expressed as δ13C: <img src="pictures/d13c.png" alt="Important Data" width="200"/>
 provides valuable insights into plant physiology and particularly drought stress. Under well-watered conditions with open [stomata](https://en.wikipedia.org/wiki/Stoma), [RuBisCO](https://en.wikipedia.org/wiki/RuBisCO) preferentially fixes the lighter 12C that diffuses a little bit faster and also has a higher affinity for the 12C isotope over 13C. This results in more negative δ13C values (higher 13C discrimination). When stomata close due to drought stress, intercellular CO2 concentrations are lower, and RuBisCO has a reduced ability to discriminate against the heavier 13C isotope during carboxylation, resulting in less negative δ13C values.
 
 <p align="center">
-  <img src="fixiation.png" alt="Important Data" width="500"/>
+  <img src="pictures/fixiation.png" alt="Important Data" width="500"/>
 </p>
 
 
