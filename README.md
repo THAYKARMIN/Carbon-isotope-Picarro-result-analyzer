@@ -27,13 +27,15 @@ The goal of this project is to create an efficient and easy-to-use tool that wil
 
 ## Technical info
 
+Note: The statistical analysis for 2 groups is an independent t-test; for more than 2 groups, it is a one-way ANOVA. Please ensure your data is compatible for these tests if you choose to perform the statistical analysis
+
 1. Downloading the δ13C leaf database.
 2. Importing relevant Python libraries and modules.
 3. Reading the result CSV file and correcting the δ13C values.
 4. Setting up a GUI to ask the user for their plant species.
 5. Searching in the δ13C leaf database for the user's species δ13C value.
-6. Setting up a GUI to ask the user whether to plot the data (including δ13C values from the database) as a single group or multiple groups. If multiple groups, prompting for group names and sample IDs.
-7. Performing statistical analysis (mean, standard deviation, median, t-test/ANOVA) on the results.
+6. Performing statistical analysis (mean, standard deviation, median, t-test/ANOVA) on the results.
+7. Setting up a GUI to ask the user whether to plot the data (including δ13C values from the database) as a single group or multiple groups.Prompting for group names else use sample IDs.
 8. Printing a carbon isotope composition report including plots, statistical analysis, and δ13C values from the database.
 
 ## Installing the dependencies
@@ -52,9 +54,9 @@ pytest
 
 ## Running the program
 
-To run, provide the script's name and the input file:
+To run
 ```
-python final_project.py input.csv
+python data_analyze.py
 ```
 
 This project was originally implemented as part of the [Python programming course](https://github.com/szabgab/wis-python-course-2024-04) at the [Weizmann Institute of Science](https://www.weizmann.ac.il/) taught by [Gabor Szabo](https://szabgab.com/).
